@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="loginstyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     <div class="login-container">
@@ -18,9 +19,21 @@
                 <label for="password">Password</label>
                 <input type="password" id="password" name="password" placeholder="P a s s w o r d">
             </div>
+            <p><a href="forgotpassword.html">Forgot your password?</a>.</p>
+
             <button type="submit">Login</button>
         </form>
-        <p>If you don't have an account, <a href="signup.html">Sign Up</a>.</p>
+        <p><a href="signup.html">Create account</a>.</p>
+
+    </div>
+    
+       <!-- Join the Community section -->
+       <div class="join-community">
+        <p><span style="font-size:24px; font-weight:bold;">Join the Community</span></p>
+        <div class="subscribe-container">
+            <input type="email" id="email" name="email" placeholder="E m a i l">
+            <button type="submit">Subscribe <i   class="fas fa-arrow-right"></i></button>
+        </div>
     </div>
 </body>
 </html>
