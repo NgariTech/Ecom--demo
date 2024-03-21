@@ -102,3 +102,7 @@ button:hover {
 .join-community button i {
     margin-left: 5px; /* Add margin between text and icon */
 }
+
+button:hover {
+    background-color: #976642
+}
